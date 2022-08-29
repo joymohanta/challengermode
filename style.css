@@ -1,0 +1,110 @@
+.navbar_color {
+  background-color: #1b212c;
+}
+.linkitem {
+  font-weight: 600;
+}
+
+.image {
+  width: 50px;
+}
+.searchbar {
+  margin-right: 100px;
+  background-color: #161a23;
+}
+.side_link {
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #272f3f;
+  margin-left: 3px;
+}
+.font {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 14px 25px;
+  border-radius: 25px;
+}
+#login:hover {
+  background-color: #364158;
+}
+#signup {
+  background-color: #16b2ca;
+}
+#signup:hover {
+  background-color: #11899c;
+}
+.icon_img {
+  width: 30px;
+}
+.tooltext {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltext .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltext .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltext:hover .tooltiptext {
+  visibility: visible;
+}
+.worldicon {
+  background-color: #1b212c;
+  margin-left: 10px;
+}
+
+.parenticon {
+  background-color: #272f3f;
+  padding-bottom: 14px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 20px;
+}
+.parenticon:hover {
+  background-color: #364158;
+}
+.arrow {
+  width: 22px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+}
+.beta {
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  background-color: #e7234c;
+  padding: 1px 7px;
+  margin-left: 5px;
+  border-radius: 20px;
+}
+.download {
+  background-color: #1b212c;
+}
+.download:hover {
+  background-color: #272f3f;
+}
