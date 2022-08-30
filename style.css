@@ -157,7 +157,7 @@
 }
 .sub_container {
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 110px;
   /* margin-right: 100px; */
 }
 .sub_container img {
@@ -195,4 +195,23 @@
   margin-top: 10px;
   margin-left: 32px;
   height: 14px;
+}
+.another_section {
+  margin-left: 110px;
+  margin-top: 60px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.another_section a {
+  text-decoration: none;
+}
+.game_photo img {
+  width: 170px;
+  margin-right: 7px;
+}
+.scale {
+  transition: transform ease-out 0.5s;
+}
+.scale:hover {
+  transform: scale(1.05);
 }
