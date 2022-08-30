@@ -20,7 +20,7 @@
   margin-left: 3px;
 }
 .font {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   padding: 14px 25px;
   border-radius: 25px;
@@ -104,7 +104,95 @@
 }
 .download {
   background-color: #1b212c;
+  font-weight: 600;
 }
 .download:hover {
   background-color: #272f3f;
+}
+.sidelogobar {
+  /* border: 1px solid red; */
+  padding: 0 10px;
+  background-color: #1b212c;
+}
+.sidelogobar img {
+  width: 55px;
+  margin-bottom: 7px;
+}
+.toolsidetip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.toolsidetip .tooltipsidetext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.toolsidetip .tooltipsidetext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.toolsidetip:hover .tooltipsidetext {
+  visibility: visible;
+}
+.main_container {
+  background-color: #101319;
+  width: 100%;
+}
+.sub_container {
+  margin-top: 30px;
+  margin-left: 100px;
+  /* margin-right: 100px; */
+}
+.sub_container img {
+  width: 340px;
+}
+.border {
+  /* width: 340px; */
+}
+.small_side_logo img {
+  width: 50px;
+  height: 50px;
+}
+.textsmall {
+  font-size: 11px;
+  font-weight: 500;
+}
+.progress_bar img {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 55px;
+  height: 16px;
+}
+.color_change {
+  color: white;
+}
+.color_change:hover {
+  color: #16a3b8;
+}
+.small_side_logo_pic img {
+  width: 25px;
+  height: 40px;
+}
+.progress_bar3 img {
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 32px;
+  height: 14px;
 }
