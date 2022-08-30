@@ -1,12 +1,19 @@
+html::-webkit-scrollbar {
+  width: 7px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #16a3b8;
+}
+html::-webkit-scrollbar-track {
+  background-color: #1b212c;
+}
 .navbar_color {
   width: 100%;
-  /* padding-top: 50px; */
+  z-index: 2;
   position: fixed;
   background-color: #1b212c;
 }
-/* .main_section_container {
-  margin-top: 50px;
-} */
+
 .linkitem {
   font-weight: 600;
 }
@@ -116,11 +123,9 @@
   background-color: #272f3f;
 }
 .sidelogobar {
-  /* border: 1px solid red; */
   padding: 0 10px;
   margin-top: 62px;
   background-color: #1b212c;
-  position: fixed;
 }
 .sidelogobar img {
   width: 55px;
@@ -163,19 +168,15 @@
   background-color: #101319;
   width: 100%;
   margin-top: 62px;
-  margin-left: 70px;
 }
 .sub_container {
   margin-top: 30px;
   margin-left: 110px;
-  /* margin-right: 100px; */
 }
 .sub_container img {
   width: 340px;
 }
-.border {
-  /* width: 340px; */
-}
+
 .small_side_logo img {
   width: 50px;
   height: 50px;
@@ -227,19 +228,15 @@
 }
 .areapic {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-left: 110px;
   position: relative;
-  /* margin-right: 100px; */
 }
 .areapic img {
   width: 1055px;
-  /* margin-left: 30px; */
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 .img_word {
-  /* margin-top: -300px; */
-  /* margin-bottom: 300px; */
   position: absolute;
   top: 80px;
   left: 40px;
@@ -256,4 +253,43 @@
 }
 #img_btn:hover {
   background-color: #11899c;
+}
+.tournament {
+  margin-left: 115px;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.popular_img {
+  width: 250px;
+}
+.small_side_logo_photo img {
+  width: 50px;
+  height: 40px;
+}
+.first_bar {
+  border: 1px solid #16b2ca;
+  width: 400px;
+  height: 1px;
+  margin-top: 24px;
+}
+.second_bar {
+  border: 1px solid #16b2ca;
+  width: 400px;
+  height: 1px;
+  margin-top: 24px;
+}
+.show_more_button {
+  border: none;
+  color: white;
+  background-color: #16b2ca;
+  padding: 12px 20px;
+  border-radius: 30px;
+}
+.show_more_button:hover {
+  background-color: #138495;
+}
+.more_item,
+.per_item:nth-child(1) ~ .per_item {
+  display: none;
 }
