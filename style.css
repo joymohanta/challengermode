@@ -293,3 +293,73 @@ html::-webkit-scrollbar-track {
 .per_item:nth-child(1) ~ .per_item {
   display: none;
 }
+
+@media screen and (max-width: 576px) {
+  .home_preview {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .navbar_color {
+    width: 90%;
+  }
+  .main_container {
+    width: 100%;
+  }
+  .sub_container {
+    margin-left: 20px;
+  }
+  .sidelogobar {
+    display: none;
+  }
+  .middle_step {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .another_section {
+    margin-left: 50px;
+    width: 100%;
+  }
+  .browse_games {
+    display: inline;
+    flex-direction: column;
+  }
+  .browse_games a {
+    margin-top: 25px;
+  }
+  .game_photo img {
+    width: 300px;
+  }
+  .areapic {
+    margin-left: 0px;
+  }
+  .areapic img {
+    width: 350px;
+  }
+  .tournament {
+    margin-left: 20px;
+  }
+  .tournament h3 {
+    margin-top: 150px;
+  }
+  .sub_tournament {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub_tournament div {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .side_link {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #272f3f;
+    margin-left: 3px;
+  }
+  .games_flex a {
+    margin-right: 60px;
+  }
+}
